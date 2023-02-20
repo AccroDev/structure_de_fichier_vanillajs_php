@@ -1,0 +1,14 @@
+{
+    "name": "mysite/myname",
+    "autoload": {
+        "psr-4": {
+            "Controllers\\": "Controllers/"
+        }
+    },
+    "authors": [{
+        "name": "Joseph-Emrys"
+    }],
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    }
+}
