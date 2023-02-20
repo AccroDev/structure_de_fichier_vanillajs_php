@@ -3,11 +3,13 @@ namespace Controllers;
     class Test
     {
        public function __construct($methode) {
-        $this->$methode();
+            if (isset($methode)) {
+                $this->$methode();
+            }
        }
        public function get()
        {
-        echo 'get';
+            echo 'get';
        }
     }
 ?>

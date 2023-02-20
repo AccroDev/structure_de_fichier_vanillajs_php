@@ -1,13 +1,21 @@
 {
-    "name": "mysite/myname",
+    "name": "structure-de-fichier/structure-de-fichier",
+    "description": "file structure for php and vanillajs",
+    "keywords": ["file", "file structure", "php", "js"],
+    "homepage": "https://github.com/AccroDev/structure_de_fichier_vanillajs_php",
+    "authors": [
+       {
+          "name": "AccroDev",
+          "email": "accrodev@gmail.com",
+          "homepage": "https://www.accrodev.xyz/contact"
+       }
+    ],
     "autoload": {
         "psr-4": {
-            "Controllers\\": "Controllers/"
+            "Controllers\\": "Controllers/",
+            "Models\\": "Models/"
         }
     },
-    "authors": [{
-        "name": "Joseph-Emrys"
-    }],
     "require": {
         "altorouter/altorouter": "^2.0"
     }
